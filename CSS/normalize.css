@@ -36,6 +36,12 @@ h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+header {
+  padding: 100px;
+  background-color: aquamarine;
+  height: 100px;
+}
+
 /**
    * Render the `main` element consistently in IE.
    */
