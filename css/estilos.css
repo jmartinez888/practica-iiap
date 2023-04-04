@@ -129,4 +129,9 @@ justify-content: space-between; } .footer__inputs{ flex-wrap: wrap; }
     top: 10px;
     left: 10px;
   }
+  .no-scroll {
+    overflow: hidden;
+  }
+  
+  
   
