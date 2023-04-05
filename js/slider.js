@@ -28,4 +28,9 @@
 
     }
 
+    // Función que cambia el slider cada 3 segundos
+    setInterval(() => {
+        changePosition(1);
+    }, 5000);
+
 })();
