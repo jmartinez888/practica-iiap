@@ -1,86 +1,259 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VOLUNTARIADO IIAP</title>
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/estilos.css" />
 
-    <meta name="theme-color" content="#2091F9">
-</head>
+    <meta name="theme-color" content="#2091F9" />
+  </head>
 
-<body>
-
+  <body>
     <header class="hero" id="inicio">
-        <nav class="nav container">
-            <div class="nav__logo">
-                <img src="./images/icono.png" alt="Logo" class="logo-img">
-            </div>
+      <nav class="nav container">
+        <div class="nav__logo">
+          <img src="./images/icono.png" alt="Logo" class="logo-img" />
+        </div>
 
+        <ul class="nav__link nav__link--menu">
+          <li class="nav__items">
+            <a href="#inicio" class="nav__links nueva-clase">Inicio</a>
+          </li>
+          <li class="nav__items">
+            <a href="#acercade" class="nav__links nueva-clase">Acerca de</a>
+          </li>
+          <li class="nav__items">
+            <a href="#Planes" class="nav__links nueva-clase">Portafolio</a>
+          </li>
+          <li class="nav__items">
+            <a href="#blog" class="nav__links nueva-clase">Contacto</a>
+          </li>
 
-            <ul class="nav__link nav__link--menu">
-                <li class="nav__items">
-                    <a href="#inicio" class="nav__links nueva-clase">Inicio</a>
-                </li>
-                <li class="nav__items">
-                    <a href="#acercade" class="nav__links nueva-clase">Acerca de</a>
-                </li>
-                <li class="nav__items">
-                    <a href="#Planes" class="nav__links nueva-clase">Portafolio</a>
-                </li>
-                <li class="nav__items">
-                    <a href="#blog" class="nav__links nueva-clase">Contacto</a>
-                </li>
+          <img src="./images/close.svg" class="nav__close" />
+        </ul>
 
-                <img src="./images/close.svg" class="nav__close">
-            </ul>
+        <div class="nav__menu">
+          <img src="./images/menu.svg" class="nav__img" />
+        </div>
+      </nav>
 
-            <div class="nav__menu">
-                <img src="./images/menu.svg" class="nav__img">
-            </div>
-        </nav>
-
-        <section class="hero__container container">
-            <h1 class="hero__title">OPORTUNIDAD DE VOLUNTARIADOS</h1>
-            <p class="hero__paragraph">Únete a nuestro equipo altamente calificado para desarrollar,<br> agilizar tus
-                conocimientos y así sacar el potencial que aún no conoces de ti.</p>
-            <a href="#" class="cta">Comienza ahora</a>
-        </section>
+      <section class="hero__container container">
+        <h1 class="hero__title">OPORTUNIDAD DE VOLUNTARIADOS</h1>
+        <p class="hero__paragraph">
+          Únete a nuestro equipo altamente calificado para desarrollar,<br />
+          agilizar tus conocimientos y así sacar el potencial que aún no conoces
+          de ti.
+        </p>
+        <a href="#" class="cta">Comienza ahora</a>
+      </section>
     </header>
 
     <main>
-        <section class="container about" id="acercade">
-            <h2 class="subtitle">¿Qué buscamos?</h2>
-            <p class="about__paragraph">Buscamos estudiantes egresados de Ing. de Sistemas, con o sin expereincia,
-                entusiastas, con muchas ganas de aprender y aportar a proyectos relacionados con el desarrollo de
-                software. </p>
+      <section class="container about" id="acercade">
+        <h2 class="subtitle">¿Qué buscamos?</h2>
+        <p class="about__paragraph">
+          Buscamos estudiantes egresados de Ing. de Sistemas, con o sin
+          expereincia, entusiastas, con muchas ganas de aprender y aportar a
+          proyectos relacionados con el desarrollo de software.
+        </p>
 
-            <div class="about__main">
-                <article class="about__icons">
-                    <img src="./images/shapes.svg" class="about__icon">
-                    <h3 class="about__title">Obtendrás Conocimiento</h3>
-                    <p class="about__paragrah">Podrás mejorar tu conocimiento en herramientas tecnológicas de
-                        programación y desarrollo de software.</p>
-                </article>
+        <div class="about__main">
+          <article class="about__icons">
+            <img src="./images/shapes.svg" class="about__icon" />
+            <h3 class="about__title">Obtendrás Conocimiento</h3>
+            <p class="about__paragrah">
+              Podrás mejorar tu conocimiento en herramientas tecnológicas de
+              programación y desarrollo de software.
+            </p>
+          </article>
 
-                <article class="about__icons">
-                    <img src="./images/paint.svg" class="about__icon">
-                    <h3 class="about__title">Trabajo en Equipo</h3>
-                    <p class="about__paragrah">Tendrás la oportunidad de integrar un equipo con profesionales
-                        calificados
-                        y experimentados. </p>
-                </article>
+          <article class="about__icons">
+            <img src="./images/paint.svg" class="about__icon" />
+            <h3 class="about__title">Trabajo en Equipo</h3>
+            <p class="about__paragrah">
+              Tendrás la oportunidad de integrar un equipo con profesionales
+              calificados y experimentados.
+            </p>
+          </article>
 
-                <article class="about__icons">
-                    <img src="./images/code.svg" class="about__icon">
-                    <h3 class="about__title">Área confortable</h3>
-                    <p class="about__paragrah">Trabajamos con un clima amigable y así fortaleciendo el rendimiento de
-                        producción.</p>
-                </article>
+          <article class="about__icons">
+            <img src="./images/code.svg" class="about__icon" />
+            <h3 class="about__title">Área confortable</h3>
+            <p class="about__paragrah">
+              Trabajamos con un clima amigable y así fortaleciendo el
+              rendimiento de producción.
+            </p>
+          </article>
+        </div>
+      </section>
+      <!-- josue -->
+      <section class="testimony">
+        <div class="testimony__container container">
+          <img
+            src="./images/leftarrow.svg"
+            class="testimony__arrow"
+            id="before"
+          />
+
+          <section class="testimony__body testimony__body--show" data-id="1">
+            <div class="testimony__texts">
+              <h2 class="subtitle">
+                Mi nombre es Franco Soria,
+                <span class="testimony__course">Egresado.</span>
+              </h2>
+              <p class="testimony__review">
+                Soy egresado de la carrera de Ingenieria de Software con
+                inteligencia artificial. Tengo conocimientos en programar,
+                diseñar y manejar aplicaciones de Software. Comprometido de
+                vocación a seguir aprendiendo y desarrollando mis capacidades
+              </p>
+            </div>
+
+            <figure class="testimony__picture">
+              <img src="./images/face.png" class="testimony__img" />
+            </figure>
+          </section>
+
+          <section class="testimony__body" data-id="2">
+            <div class="testimony__texts">
+              <h2 class="subtitle">
+                Mi nombre es Scott Ramirez,
+                <span class="testimony__course">estudiante.</span>
+              </h2>
+              <p class="testimony__review">
+                Actualmente me encuentro cursando el 4 semestre de la carrera de
+                <strong
+                  >"INGENIERIA DE SOFTWARE CON INTELIGENCIA ARTIFICIAL"</strong
+                >
+                en el SENATI. <br />
+                Estoy muy contento de pertenecer a esta comunidad de voluntarios
+                y de poder brindar mis conocimientos, asi como tambien
+                recibirlos por parte del equipo.
+              </p>
+            </div>
+
+            <figure class="testimony__picture">
+              <img src="./images/face2.png" class="testimony__img" />
+            </figure>
+          </section>
+
+          <section class="testimony__body" data-id="3">
+            <div class="testimony__texts">
+              <h2 class="subtitle">
+                Mi nombre es Danny Dávila,
+                <span class="testimony__course">estudiante.</span>
+              </h2>
+              <p class="testimony__review">
+                Actualmente estudio en SENATI de 4 semestre de la carrera
+                Ingenieria de Software con Inteligencia Artificial, Matenimiento
+                y Soporte TI. <br />
+                Estoy Contento y a la vez agradecido al pertenecer a la
+                comunidad de voluntariados IIAP. Espero poder brindar mis
+                conocimientos y a la vez poder aprender mas.
+              </p>
+            </div>
+
+            <figure class="testimony__picture">
+              <img src="./images/face3.jpeg" class="testimony__img" />
+            </figure>
+          </section>
+
+          <section class="testimony__body" data-id="4">
+            <div class="testimony__texts">
+              <h2 class="subtitle">
+                Mi nombre es Jordan Flores,
+                <span class="testimony__course">estudiante.</span>
+              </h2>
+              <p class="testimony__review">
+                Hola! soy un estudiante del SENATI cursando el 4 semestere de la
+                carrera "Ingenieria de Software con I.A". estoy contento de
+                pertenecer a la comunidad de voluntariados y seguir aprendiendo
+                dia a dia.
+              </p>
+            </div>
+
+            <figure class="testimony__picture">
+              <img src="./images/face4.jpg" class="testimony__img" />
+            </figure>
+          </section>
+
+          <!-- section Jefferson Santos -->
+          <section class="testimony__body" data-id="5">
+            <div class="testimony__texts">
+              <h2 class="subtitle">
+                Mi nombre es Jefferson Santos,
+                <span class="testimony__course">estudiante.</span>
+              </h2>
+              <p class="testimony__review">
+                Soy Jefferson Santos, estudiante de Ingeniería de Sistemas e
+                Informática en la UNAP. En mi portafolio encontrarás una muestra
+                de mis habilidades en el desarrollo y diseño web, y programación
+                en lenguajes como C#, JS y PHP. También soy voluntario del IIAP
+                y me comprometo en ayudar a la comunidad. Espero que disfrutes
+                explorando nuestro trabajo y que te sea útil. ¡Gracias por
+                visitar este sitio!
+              </p>
+            </div>
+
+            <figure class="testimony__picture">
+              <img src="./images/face5.jpg" class="testimony__img" />
+            </figure>
+          </section>
+          <!-- end section Jefferson Santos -->
+
+          <!--========joseph ruiz================-->
+          <section class="testimony__body" data-id="6">
+            <div class="testimony__texts">
+              <h2 class="subtitle">
+                Mi nombre es Joseph Ruiz,
+                <span class="testimony__course">estudiante.</span>
+              </h2>
+              <p class="testimony__review">
+                Mi nombre es Joseph Ruiz,<br />
+                <strong style="color: rgba(11, 30, 235, 0.692)">
+                  "Estudiante de Ingeniería de Sistemas e Informática en la
+                  UNAP."</strong
+                >
+                <br />
+                Tengo conocimiento basico en lo que es el Desarrollo WEB en los
+                <br />
+                lenguajes de <strong>HTML, CSS y JS.</strong> <br />
+                Ahora pertenezco al Voluntariado del IIAP, en la cual estoy
+                ampliando mis conocimientos en la programación, y espero ser de
+                gran utilidad con mis <br />
+                compañeros de esta comunidad y poder aprender algo nuevo dia a
+                dia
+              </p>
+            </div>
+
+            <figure class="testimony__picture">
+              <img src="./images/face6.jpg" class="testimony__img" />
+            </figure>
+          </section>
+          <!--========joseph ruiz=================-->
+
+          <!-- Section Anthony Cabrera Start -->
+          <section class="testimony__body" data-id="7">
+            <div class="testimony__texts">
+              <h2 class="subtitle">
+                Mi nombre es Anthony Cabrera,
+                <span class="testimony__course">estudiante.</span>
+              </h2>
+              <p class="testimony__review">
+                Soy Anthony Cabrera, estudiante de Ingeniería de Sistemas e
+                Informática en la UNAP. En mi portafolio encontrarás una muestra
+                de mis habilidades en el desarrollo y diseño web, y programación
+                en lenguajes como HTML, CSS y JS. También soy voluntario del
+                IIAP en el proyecto Aplicacion Movil Catalogo de Especies el
+                cual desarrollare con el lenguaje Dart de Flutter y me
+                comprometo a aprender y ayudar a la comunidad. Espero que
+                disfrutes explorando nuestro trabajo y que te sea útil. ¡Gracias
+                por visitar este sitio!
+              </p>
             </div>
         </section>
         <!-- josue -->
@@ -483,6 +656,495 @@
 
                 <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
             </div>
+
+            <figure class="testimony__picture">
+              <img src="./images/face18.jpg" class="testimony__img" />
+            </figure>
+          </section>
+          <!-- Section felix aguilar end-->
+
+          <!-- Section Diego Canaquiri Start -->
+          <section class="testimony__body" data-id="19">
+            <div class="testimony__texts">
+              <h2 class="subtitle">
+                Mi nombre es Diego Canaquiri,
+                <span class="testimony__course">estudiante.</span>
+              </h2>
+              <p class="testimony__review">
+                Soy Diego Canaquiri , estudiante de Ingeniería de Software con
+                IA en SENATI.
+              </p>
+              <p>
+                Actualmente soy practicante en el IIAP, especializándome en el
+                área de desarrollo y diseño web. Me apasiona crear aplicaciones
+                web robustas, seguras y eficientes, cuidando tanto la lógica
+                como la experiencia visual de los usuarios. Mi objetivo es
+                seguir perfeccionando mis habilidades en arquitectura backend,
+                diseño frontend, bases de datos y optimización de procesos, para
+                aportar soluciones sólidas, atractivas y escalables en el
+                desarrollo web
+              </p>
+            </div>
+
+            <figure class="testimony__picture">
+              <img src="./images/fondo porta.png" class="testimony__img" />
+            </figure>
+          </section>
+          <!-- Section  Jaslois Heigghen End -->
+
+          <!-- Section Andrea Nuñez Start -->
+          <section class="testimony__body" data-id="20">
+            <div class="testimony__texts">
+              <h2 class="subtitle">
+                Mi nombre es Andrea Nuñez ,
+                <span class="testimony__course">estudiante.</span>
+              </h2>
+              <p class="testimony__review">
+                Soy Andrea Nuñez , estudiante de Ingeniería de Ciberseguridad en
+                SENATI.
+              </p>
+              <p>
+                Actualmente soy practicante en el IIAP, donde colaboro en
+                proyectos de innovación tecnológica y desarrollo de soluciones
+                digitales. Me interesa aplicar la ciberseguridad en cada etapa
+                de los procesos, garantizando que los sistemas y la información
+                sean confiables y estén protegidos.
+              </p>
+            </div>
+
+            <figure class="testimony__picture">
+              <img src="./images/foto.jpg" class="testimony__img" />
+            </figure>
+          </section>
+          <!-- Section  Jaslois Heigghen End -->
+
+          <img
+            src="./images/rightarrow.svg"
+            class="testimony__arrow"
+            id="next"
+          />
+        </div>
+      </section>
+
+      <section class="questions container" id="Planes">
+        <h2 class="subtitle">Portafolio</h2>
+        <h3>
+          <p class="questions__paragraph">He aquí nuestros perfiles.</p>
+        </h3>
+
+        <section class="questions__container">
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Franco Soria
+                <span class="questions__arrow questions__arrow--rotate">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Hecha un vistazo a mi perfil 😉:
+                <a href="https://franquito3.github.io/portafolio/"
+                  >Presiona Aquí</a
+                >
+              </p>
+            </div>
+          </article>
+
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Scott Ramirez
+                <span class="questions__arrow questions__arrow--rotate">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Hecha un vistazo a mi perfil 😉:
+                <a href="https://scott-ramirez.github.io/Mi-Portafolio/"
+                  >Presiona Aquí</a
+                >
+              </p>
+            </div>
+          </article>
+
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Danny Dávila
+                <span class="questions__arrow questions__arrow--rotate">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Hecha un vistazo a mi perfil 😉:
+                <a href="https://danny-da.github.io/portafolio/"
+                  >Presiona Aquí</a
+                >
+              </p>
+            </div>
+          </article>
+
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Jordan Flores
+                <span class="questions__arrow questions__arrow--rotate">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Hecha un vistazo a mi perfil 😉:
+                <a href="https://jordanflower.github.io/portafolio/"
+                  >Presiona Aquí</a
+                >
+              </p>
+            </div>
+          </article>
+
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Piero Frías
+                <span class="questions__arrow questions__arrow--rotate">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Hecha un vistazo a mi perfil 😉:
+                <a href="https://pierofrias.github.io/mi-portafolio/"
+                  >Presiona Aquí</a
+                >
+              </p>
+            </div>
+          </article>
+
+          <!-- article de Jefferson Santos -->
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Jefferson Santos
+                <span class="questions__arrow questions__arrow--rotate">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Hecha un vistazo a mi perfil 😉:
+                <a href="https://daylerjeff199906.github.io/miPortafolio/"
+                  >Presiona Aquí</a
+                >
+              </p>
+            </div>
+          </article>
+          <!-- end Jefferson Santos -->
+
+          <!-- joseph ruiz -->
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Joseph Ruiz
+                <span class="questions__arrow questions__arrow--rotate">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Hecha un vistazo a mi perfil 😉:
+                <a href="https://josephaaron19.github.io/joseph/"
+                  >Presiona Aquí</a
+                >
+              </p>
+            </div>
+          </article>
+          <!-- joseph ruiz -->
+
+          <!-- Section Article de Anthony Cabrera Start-->
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Anthony Cabrera
+                <span class="questions__arrow questions__arrow--rotate">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Hecha un vistazo a mi perfil 😉:
+                <a href="https://leitocab.github.io/Portafolio/"
+                  >Presiona Aquí</a
+                >
+              </p>
+            </div>
+          </article>
+
+          <!-- Section Article de Anthony Cabrera End-->
+          <!-- Section Article de Onik Orosco Start-->
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Onik Orosco
+                <span class="questions__arrow questions__arrow--rotate">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Hecha un vistazo a mi perfil 😉:
+                <a
+                  href="https://onikorosco7.github.io/portafolio/"
+                  target="_blank"
+                  >Presiona Aquí</a
+                >
+              </p>
+            </div>
+          </article>
+
+          <!-- Section Article de Onik Orosco End-->
+
+          <!-- Section Article de Edson Isaías Sánchez Start-->
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Edson Isaías
+                <span class="questions__arrow questions__arrow--rotate">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Ingresa a mi perfil de GitHub:
+                <a href="https://github.com/edisaiassan?tab=repositories"
+                  >Presiona Aquí</a
+                >
+              </p>
+            </div>
+          </article>
+
+          <!-- Section Article de Edson Isaías Sánchez End-->
+
+          <!-- Section Article de Nick Sandoval  Start-->
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Nick Sandoval
+                <span class="questions__arrow questions__arrow--rotate">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Ingresa a mi perfil de GitHub:
+                <a href="https://kripydragon.github.io/Portafolio/"
+                  >Presiona Aquí</a
+                >
+              </p>
+            </div>
+          </article>
+
+          <!-- Section Article de Nick Sandoval Perez End-->
+
+          <!-- Section article de Felix Aguilar Barrera-->
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Felix Aguilar
+                <span class="questions__arrow questions__arrow--rotate">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Ingresa a mi perfil de GitHub:
+                <a
+                  href="https://robertredbear.github.io/portfolio-felix-aguilar/"
+                  >Presiona Aquí</a
+                >
+              </p>
+            </div>
+          </article>
+          <!-- Section article de Felix Aguilar Barrera end-->
+
+          <!-- Section Article de Christopher Joshua start-->
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Christopher Joshua
+                <span class="questions__arrow questions__arrow--rotate">
+                  <img
+                    src="./images/arrow.svg"
+                    alt="cjrsantos"
+                    class="questions__img"
+                  />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Ingresa a mi perfil de GitHub:
+                <a href="https://cjrsantos.github.io/Mi-Portafolio/"
+                  >Presiona Aquí</a
+                >
+              </p>
+            </div>
+          </article>
+          <!-- Section Article de Christopher Joshua END-->
+
+          <!-- Section Article de Leo Saavedra  Start-->
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Leo Saavedra Isuiza
+                <span class="questions__arrow questions__arrow--rotate">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Ingresa a mi perfil de GitHub:
+                <a href="https://leo010505.github.io/Mi-Portafolio/"
+                  >Presiona Aquí</a
+                >
+              </p>
+            </div>
+          </article>
+          <!-- Section Article de Leo Saavedra  end-->
+
+          <!-- Section Article Jhoiner Velasco Start-->
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Jhoiner Velasco
+                <span class="questions__arrow questions__arrow--rotate">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Hecha un vistazo a mi perfil de GitHub 👀🧑‍🎓:
+                <a
+                  href="https://jhoinersenati.github.io/Portafolio_Jhoiner/"
+                  target="_blank"
+                  >Has clíc Aquí</a
+                >
+              </p>
+            </div>
+          </article>
+
+          <!-- Section Article Jhoiner Velasco End-->
+
+          <!-- Section Article Tair Sangama Start-->
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Tair Sangama
+                <span class="questions__arrow questions__arrow--rotate">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Ingresa a mi perfil de GitHub 🧑‍🎓:
+                <a
+                  href="https://tairasuiza10.github.io/mi-portafolio-y-registros/"
+                  target="_blank"
+                  >Has clíc Aquí</a
+                >
+              </p>
+            </div>
+          </article>
+
+          <!-- Section Article Tair Sangama End-->
+
+          <!-- Section Article Emèrita Chimboras Start-->
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Emèrita Christina
+                <span class="questions__arrow questions__arrow--rotate">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Ingresa a mi perfil de GitHub 🧑‍🎓:
+                <a
+                  href="https://emerita2603.github.io/Mi-portafolio/"
+                  target="_blank"
+                  >Has clíc Aquí</a
+                >
+              </p>
+            </div>
+          </article>
+
+          <!-- Section Article Jaslois Heigghen Start-->
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Jaslois Heigghen
+                <span class="questions__arrow questions__arrow--rotate">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Ingresa a mi perfil de GitHub 🧑‍🎓:
+                <a
+                  href="https://akaza967.github.io/Mi-Portafolio/"
+                  target="_blank"
+                  >Has clíc Aquí</a
+                >
+              </p>
+            </div>
+          </article>
+          <!-- Section Article Jaslois Heigghen End-->
+
+          <!-- Section Article diego Canaquiri Start-->
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Diego Canaquiri
+                <span class="questions__arrow questions__arrow--rotate">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Ingresa a mi perfil de GitHub 🧑‍🎓:
+                <a
+                  href="https://diegocyber20.github.io/MiPortafolio/"
+                  target="_blank"
+                  >Has clíc Aquí</a
+                >
+              </p>
+            </div>
+          </article>
+           <!-- Section Andrea Nuñez Start-->
+          <article class="questions__padding">
+            <div class="questions__answer">
+              <h3 class="questions__title">
+                Andrea Nuñez
+                <span class="questions__arrow questions__arrow--rotate">
+                  <img src="./images/arrow.svg" class="questions__img" />
+                </span>
+              </h3>
+
+              <p class="questions__show">
+                Ingresa a mi perfil de GitHub 🧑‍🎓:
+                <a
+                  href= "https://nunez-vicerra-andrea.github.io/portafolio/"
+                  target="_blank"
+                  >Has clíc Aquí</a
+                >
+              </p>
+            </div>
+          </article>
+
+
+          <!-- Section Article diego canaquiri End-->
         </section>
 
         <section class="questions container" id="Planes">
@@ -772,53 +1434,68 @@
                 <a href="#" class="cta">Unirme ahora</a>
             </section>
         </section>
+      </section>
     </main>
 
     <!-- Aquí comienza el footer -->
     <footer class="footer" id="blog">
-        <section class="footer__container container">
-            <nav class="nav nav--footer">
-                <h2 class="footer__title">IIAP ✔</h2>
+      <section class="footer__container container">
+        <nav class="nav nav--footer">
+          <h2 class="footer__title">IIAP ✔</h2>
 
-                <ul class="nav__link nav__link--footer">
-                    <li class="nav__items">
-                        <a href="#inicio" class="nav__links">Inicio</a>
-                    </li>
-                    <li class="nav__items">
-                        <a href="#acercade" class="nav__links">Acerca de</a>
-                    </li>
-                    <li class="nav__items">
-                        <a href="#Planes" class="nav__links">Portafolio</a>
-                    </li>
-                    <li class="nav__items">
-                        <a href="#blog" class="nav__links">Blog</a>
-                    </li>
-                </ul>
-            </nav>
+          <ul class="nav__link nav__link--footer">
+            <li class="nav__items">
+              <a href="#inicio" class="nav__links">Inicio</a>
+            </li>
+            <li class="nav__items">
+              <a href="#acercade" class="nav__links">Acerca de</a>
+            </li>
+            <li class="nav__items">
+              <a href="#Planes" class="nav__links">Portafolio</a>
+            </li>
+            <li class="nav__items">
+              <a href="#blog" class="nav__links">Blog</a>
+            </li>
+          </ul>
+        </nav>
 
-            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
-                <h2 class="footer__newsletter">Déjanos tu correo</h2>
-                <div class="footer__inputs">
-                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
-                    <input type="submit" value="Registrate" class="footer__submit">
-                </div>
-            </form>
-        </section>
+        <form
+          class="footer__form"
+          action="https://formspree.io/f/mknkkrkj"
+          method="POST"
+        >
+          <h2 class="footer__newsletter">Déjanos tu correo</h2>
+          <div class="footer__inputs">
+            <input
+              type="email"
+              placeholder="Email:"
+              class="footer__input"
+              name="_replyto"
+            />
+            <input type="submit" value="Registrate" class="footer__submit" />
+          </div>
+        </form>
+      </section>
 
-        <section class="footer__copy container">
-            <div class="footer__social">
-                <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
-                <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
-                <a href="#" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
-            </div>
+      <section class="footer__copy container">
+        <div class="footer__social">
+          <a href="#" class="footer__icons"
+            ><img src="./images/facebook.svg" class="footer__img"
+          /></a>
+          <a href="#" class="footer__icons"
+            ><img src="./images/twitter.svg" class="footer__img"
+          /></a>
+          <a href="#" class="footer__icons"
+            ><img src="./images/youtube.svg" class="footer__img"
+          /></a>
+        </div>
 
-            <h3 class="footer__copyright">Derechos reservados &copy; Team IIAP</h3>
-        </section>
+        <h3 class="footer__copyright">Derechos reservados &copy; Team IIAP</h3>
+      </section>
     </footer>
 
     <script src="./js/slider.js"></script>
     <script src="./js/questions.js"></script>
     <script src="./js/menu.js"></script>
-</body>
-
+  </body>
 </html>
